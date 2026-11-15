@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="c167a083f8544d44a196c2c58be035a1" Name="Diagram1">
+        <EntityTypeShape EntityType="LeasingCompanyModel.Clients" Width="1.5" PointX="3" PointY="3.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="LeasingCompanyModel.ClientStatuses" Width="1.5" PointX="0.75" PointY="4.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="LeasingCompanyModel.Contracts" Width="1.5" PointX="5.25" PointY="3.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="LeasingCompanyModel.ContractStatuses" Width="1.5" PointX="3" PointY="8.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="LeasingCompanyModel.ItemCategories" Width="1.5" PointX="0.75" PointY="11.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="LeasingCompanyModel.ItemStatuses" Width="1.5" PointX="0.75" PointY="13.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="LeasingCompanyModel.LeaseItems" Width="1.5" PointX="3" PointY="11.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="LeasingCompanyModel.Managers" Width="1.5" PointX="3" PointY="15.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="LeasingCompanyModel.Notifications" Width="1.5" PointX="7.5" PointY="4.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="LeasingCompanyModel.NotificationTypes" Width="1.5" PointX="5.25" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="LeasingCompanyModel.Payments" Width="1.5" PointX="10.5" PointY="4.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="LeasingCompanyModel.PaymentStatuses" Width="1.5" PointX="8.25" PointY="1.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="LeasingCompanyModel.PaymentTypes" Width="1.5" PointX="8.25" PointY="7.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="LeasingCompanyModel.sysdiagrams" Width="1.5" PointX="5.75" PointY="11" IsExpanded="true" />
+        <AssociationConnector Association="LeasingCompanyModel.FK_Договоры_Клиенты" ManuallyRouted="false" />
+        <AssociationConnector Association="LeasingCompanyModel.FK_Клиенты_СтатусыКлиентов" ManuallyRouted="false" />
+        <AssociationConnector Association="LeasingCompanyModel.FK_Уведомления_Клиенты" ManuallyRouted="false" />
+        <AssociationConnector Association="LeasingCompanyModel.FK_Договоры_Менеджеры" ManuallyRouted="false" />
+        <AssociationConnector Association="LeasingCompanyModel.FK_Договоры_ПредметыЛизинга" ManuallyRouted="false" />
+        <AssociationConnector Association="LeasingCompanyModel.FK_Договоры_СтатусыДоговоров" ManuallyRouted="false" />
+        <AssociationConnector Association="LeasingCompanyModel.FK_Платежи_Договоры" ManuallyRouted="false" />
+        <AssociationConnector Association="LeasingCompanyModel.FK_Уведомления_Договоры" ManuallyRouted="false" />
+        <AssociationConnector Association="LeasingCompanyModel.FK_ПредметыЛизинга_КатегорииТехники" ManuallyRouted="false" />
+        <AssociationConnector Association="LeasingCompanyModel.FK_ПредметыЛизинга_СтатусыТехники" ManuallyRouted="false" />
+        <AssociationConnector Association="LeasingCompanyModel.FK_Уведомления_ТипыУведомлений" ManuallyRouted="false" />
+        <AssociationConnector Association="LeasingCompanyModel.FK_Платежи_СтатусыПлатежей" ManuallyRouted="false" />
+        <AssociationConnector Association="LeasingCompanyModel.FK_Платежи_ТипыПлатежей" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
